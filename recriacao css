@@ -1,0 +1,9 @@
+* {
+    margin: 1vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background: #AED1E6;
+    height: 100%;
+}
