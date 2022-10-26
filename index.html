@@ -16,29 +16,72 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div> <img src="imagens/Line 1.png"> </div>
         <div class="opcoes">{Samara Luiza}</div>
         <div><img src="imagens/Line 2.png"></div>
         </div>
-        <div class="opcoes">Home</div>
-        <div class="opcoes">Sobre</div>
-        <div class="opcoes">Linguagens</div>
+        <a href="#principal" class="opcoes">Home</a>
+        <a href="#apresentacao2" class="opcoes">Sobre</a>
+        <a href="#linguagens" class="opcoes">Linguagens</a href="#linguagens">
         <div class="opcoes">Projetos</div>
-        <div class="opcoes">Contato</div>
+        <a href="#contato" class="opcoes">Contato</a href="">
         <div><img src="imagens/Line 7.png"> </div>
     </header>
 
-    <div class="principal">
+    <div class="principal" id="principal">
         <p id="apresentacao">Olá meu nome é</p>
         <h1 id="nome">Samara Luiza <br> Cunha Silva</h1>
         <p id="texto">Eu sou uma estudante na área de tecnologia no Colégio Cotemig, e <br> pretendo me especializar na
             área de
             Front-End no futuro.</p>
-        <h3>Currículo</h3>
+        <button>Currículo</button>
     </div>
 
     <img id="nuvenzinha" src="imagens/nuvenzinha.png">
+
+    <div class="apresentacao2" id="apresentacao2"><img id="img" src="imagens/temporaria.png">
+        <div id="textos">
+            <p id="apresentacao">Um pouco sobre mim</p>
+            <h1 id="nome">Sobre</h1>
+            <p id="texto">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum
+                has been the
+                industry's <br> standard dummy text ever since the 1500s, when an <br> unknown printer took a galley of
+                type and scrambled it to <br> make a type specimen book.</p>
+        </div>
+    </div>
+
+    <div class="linguagens" id="linguagens">
+        <p id="apresentacao">Experiências</p>
+        <h1 id="nome">Linguagens</h1>
+        <p id="texto">Aqui estão as linguagens em que tenho conhecimento.</p>
+        <div class="nomes">
+            <h1 id="lingua">HTML</h1>
+            <H1 id="lingua">CSS</H1>
+            <H1 id="lingua">JAVASCRIPT</H1>
+            <H1 id="lingua">C#</H1>
+        </div>
+    </div>
+
+    <div class="projetos">
+        <p id="apresentacao">Portifólio</p>
+        <h1 id="nome">Projetos</h1>
+       <a href="RecriacaoLayout/index.html" href="RecriacaoLayout/RL.css"> <img id="topico1" src="imagens/projetos.png"> </a>
+        <a href="e-commerce/index.html" href="e-commerce/EC.css" ><img id="topico" src="imagens/projetos.png"> </a>
+        <a href="c#/index.html" href="c#/projetos.css"><img id="topico" src="imagens/projetos.png"></a> </a>
+        <p id="layout">Recriação Layout</p>
+        <p id="site">Sites e-commerce</p>
+        <p id="c">C#</p>
+    </div>
+
+    <div class="contato" id="contato">
+        <h1 id="entre">Entre em contato</h1>
+        <p id="textoC">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has
+            been the
+            industry's <br> standard dummy text ever since the 1500s, when an <br> unknown printer took a galley of type
+            and scrambled it to <br> make a type specimen book.</p>
+        <button id="btnCon">Contatar</button>
+    </div>
 
 
 </body>
